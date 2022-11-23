@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Combat
+namespace TTOTIR.Combat
 {
     /** <summary> 
     Stores all behavior of a Spell in combat, 

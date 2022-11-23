@@ -1,4 +1,4 @@
-namespace Inventory
+namespace TTOTIR.Inventory
 {
     /// <summary> A spell that the player can store in their inventory. </summary>
     [System.Serializable]

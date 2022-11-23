@@ -1,9 +1,10 @@
 using UnityEngine;
-using Combat;
+using TTOTIR.Combat;
 
-namespace Inventory
+namespace TTOTIR.Inventory
 {
     /// <summary> A type of spell. </summary>
+    [CreateAssetMenu(fileName = "Spell", menuName = "TTOTIR/Inventory/Spell")]
     public class SpellData : ScriptableObject
     {
         [Tooltip("Display name of this spell.")]

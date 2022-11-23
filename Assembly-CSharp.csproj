@@ -36,17 +36,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/PlayerFile.cs" />
-     <Compile Include="Assets/Scripts/Inventory/Spell.cs" />
-     <Compile Include="Assets/Scripts/Inventory/SpellData.cs" />
      <Compile Include="Assets/Scripts/Inventory/ItemData.cs" />
+     <Compile Include="Assets/Scripts/Combat/Player/Player.cs" />
      <Compile Include="Assets/Scripts/Combat/SpellBehaviour.cs" />
-     <Compile Include="Assets/Scripts/Combat/Character.cs" />
-     <Compile Include="Assets/Scripts/Combat/Projectile.cs" />
-     <Compile Include="Assets/Scripts/Combat/Hitbox.cs" />
-     <Compile Include="Assets/Scripts/Combat/Player.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Spell.cs" />
      <Compile Include="Assets/Scripts/Inventory/ItemContainer.cs" />
-     <Compile Include="Assets/Scripts/Combat/PlayerMovement.cs" />
+     <Compile Include="Assets/Scripts/Combat/Player/PlayerMovement.cs" />
+     <Compile Include="Assets/Scripts/Combat/Character.cs" />
+     <Compile Include="Assets/Scripts/PlayerFile.cs" />
+     <Compile Include="Assets/Scripts/Inventory/SpellData.cs" />
+     <Compile Include="Assets/Scripts/Combat/GameCamera.cs" />
+     <Compile Include="Assets/Scripts/Combat/Hurtbox.cs" />
+     <Compile Include="Assets/Scripts/Combat/CharacterData.cs" />
+     <Compile Include="Assets/Scripts/Combat/Element.cs" />
+     <Compile Include="Assets/Enemies/Sludge/Sludge.cs" />
+     <Compile Include="Assets/Scripts/Combat/Projectiles/Projectile.cs" />
+     <Compile Include="Assets/Scripts/Combat/Damager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -719,8 +724,14 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/caesarj/TTOTIR-Expedition/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+        <HintPath>/Users/caesarj/TTOTIR-Expedition/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>/Users/caesarj/TTOTIR-Expedition/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush">
+        <HintPath>/Users/caesarj/TTOTIR-Expedition/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>/Users/caesarj/TTOTIR-Expedition/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
@@ -745,12 +756,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/Users/caesarj/TTOTIR-Expedition/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Polybrush.Editor">
-        <HintPath>/Users/caesarj/TTOTIR-Expedition/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Polybrush">
-        <HintPath>/Users/caesarj/TTOTIR-Expedition/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,8 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
-using Inventory;
+using TTOTIR.Inventory;
 
-namespace Combat
+namespace TTOTIR.Combat
 {
     /// <summary> Attached to the in-game player. Stoes magica, spells and inventory.
     /// Also attached to player is Character which stores health, defense and speed stats. </summary>

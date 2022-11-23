@@ -1,8 +1,9 @@
 using UnityEngine;
 
-namespace Inventory
+namespace TTOTIR.Inventory
 {
     /// <summary> A type of item. </summary>
+    [CreateAssetMenu(fileName = "Item", menuName = "TTOTIR/Inventory/Item")]
     public class ItemData : ScriptableObject
     {
         [Tooltip("Display name of this item.")]

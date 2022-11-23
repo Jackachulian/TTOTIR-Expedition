@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Inventory
+namespace TTOTIR.Inventory
 {
     /// <summary> Can store a certain amount of stacks of items. Implemented with a sorted dictionary. </summary>
     public class ItemContainer

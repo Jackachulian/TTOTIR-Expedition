@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-using Inventory;
+using TTOTIR.Inventory;
 
 /// <summary> Class that stores all data of a game file. (Fully serializable) </summary>
 public class PlayerFile
