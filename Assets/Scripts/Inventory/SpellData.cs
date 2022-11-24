@@ -8,13 +8,13 @@ namespace TTOTIR.Inventory
     public class SpellData : ScriptableObject
     {
         [Tooltip("Display name of this spell.")]
-        private string displayName;
+        public string displayName;
         [Tooltip("Icon for this spell in the inventory/UI.")]
-        private Sprite icon;
+        public Sprite icon;
 
         [Tooltip("Magica cost to use this spell.")]
-        private float cost;
+        public float cost;
         [Tooltip("Effect when using this spell in-game.")]
-        private SpellBehaviour behaviour;
+        public SpellBehaviour behaviour;
     }
 }

@@ -80,10 +80,8 @@ namespace TTOTIR.Combat.Projectile
             if (other.gameObject.layer == LayerMask.NameToLayer("Character"))
             {
                 pierces -= 1;
-                Debug.Log(pierces);
                 if (pierces < 0)
                 {
-                    Debug.Log("AHHHHHHHHHHHHHHHH A\"OHIJD:A:SJDIH\"O:BAKS:DUIJ");
                     DestroyProjectile();
                 }
             }
@@ -99,7 +97,6 @@ namespace TTOTIR.Combat.Projectile
         // If overridden, should at least contain Destroy(gameObject) somewhere in the code so it doesn't last forever.
         void DestroyProjectile()
         {
-            Debug.Log("destroying "+this);
             if (explosion.enabled) {
                 // Find all collisions inside explosion sphere
                 foreach (Collider collider in Physics.OverlapSphere(transform.position, explosion.radius)) 
