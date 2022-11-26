@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5eeb701abf31425faa65553a191ad00, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
+  displayName: 
+  maxHealth: 20
   defense: 5
-  moveAccel: 20
-  moveDecel: 25
+  moveAccel: 40
+  moveDecel: 45
   topSpeed: 10
